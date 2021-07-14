@@ -6,11 +6,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
 
 @Data
-@Document(collection="rateBootcoin")
-public class RateBootcoin {
+@Document(collection="type_transaction")
+public class TypeTransaction {
 	@Id
-	private Integer idRateBootcoin;
-	private String typeCoin;
-	private Double rateChange;
-	private String isCurren;
+	private Integer idTypeTransaction;
+	private String typuTransactionDescrip;
+
 }
