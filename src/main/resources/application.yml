@@ -2,5 +2,5 @@ spring:
   application:
     name: bootcoin
   config:
-#     import: optional:configserver:https://configserver-jabmm.azurewebsites.net
-     import: optional:configserver:http://localhost:8888
+     import: optional:configserver:https://configserver-jabmm.azurewebsites.net
+#     import: optional:configserver:http://localhost:8888

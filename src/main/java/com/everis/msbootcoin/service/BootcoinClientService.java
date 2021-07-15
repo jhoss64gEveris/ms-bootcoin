@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 @Service
 public class BootcoinClientService {
 	
-	private static BootcoinClientRepository repository;
+	private final BootcoinClientRepository repository;
 	
 	public Mono<BootcoinClient> createNewBootcoinClient(BootcoinClient bootcoinClient){		
 		return repository.save(bootcoinClient);		
